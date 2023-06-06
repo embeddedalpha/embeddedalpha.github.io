@@ -68,6 +68,7 @@ ul{
 .nav-desktop-menu ul li a::after
 {
     content: '';
+    text-align: center;
     position: absolute;
     bottom: 0;
     left: 0;
