@@ -10,9 +10,12 @@
 
 body{
     font-family: 'Familjen Grotesk', sans-serif;
-    background: #22282f; 
+    background-image: url("images/landingpage.webp"); 
     /* background: black; */
     color:#fff;
+    overflow-y: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a {
@@ -25,7 +28,7 @@ ul{
 }
 
 .logo {
-    width: 120px;
+    width: 70px;
     height: auto;
 }
 
@@ -37,7 +40,7 @@ ul{
 }
 
 nav{
-    background-color: #1b1f24;
+    background-color: rgba(27,31,36,0.65);
     display: flex;
     align-items: center;
     justify-content: space-between;
